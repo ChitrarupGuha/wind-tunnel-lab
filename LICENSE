@@ -1,64 +1,409 @@
-# Notification, Transparency and Reporting
+# WIND TUNNEL LAB
+## CUSTOM SOURCE-AVAILABLE SOFTWARE LICENCE
+### Version 1.0 | 2026
 
-## 1. Internal Organisational Use
+**Copyright © 2026 Chitrarup Guha. All rights reserved, subject to the permissions expressly granted under this licence.**
 
-Any company, institution, organisation, or other legal entity intending to deploy or implement Wind Tunnel Lab for internal operational purposes must notify the copyright holder before such deployment or implementation.
+Project Repository: https://github.com/ChitrarupGuha/wind-tunnel-lab
 
-Such notification must include:
+Licensing Contact: [INSERT OFFICIAL LICENSING EMAIL]
 
-- The legal name of the organisation.
-- The responsible representative and contact information.
-- The intended purpose and scope of use.
-- The deployment environment.
-- Whether the original or modified software will be used.
-- The expected implementation date.
+---
 
-Permitted internal organisational use is royalty-free unless a separate written agreement establishes otherwise.
+## 1. DEFINITIONS
 
-## 2. Commercial Use Notification
+For the purposes of this licence:
 
-Any party seeking permission for commercial exploitation must obtain prior written authorization and execute a separate commercial licensing agreement before commencing the relevant activity.
+**1.1. Original Software:** Refers to the original Wind Tunnel Lab source code, application, documentation, and project materials created and owned by Chitrarup Guha.
 
-The proposed commercial activity, monetisation model, revenue streams, and intended distribution method must be disclosed during the authorization process.
+**1.2. Copyright Holder:** Refers to Chitrarup Guha, the original copyright holder of the original Wind Tunnel Lab materials covered by this licence.
 
-## 3. Recipient Transparency
+**1.3. User:** Any individual, student, researcher, developer, organisation, company, or other entity accessing or using the Software.
 
-Any party redistributing, modifying, or incorporating Wind Tunnel Lab into an authorised service must preserve the applicable copyright and licence notices.
+**1.4. Modified Version:** Refers to any version of the Software that has been altered, extended, adapted, or incorporated into another work.
 
-Recipients must be clearly informed that Wind Tunnel Lab or a derivative component is incorporated into the software or service.
+**1.5. Commercial Exploitation:** Refers to activities involving the sale, monetisation, paid hosting, commercial service delivery, revenue-generating distribution, or other revenue-generating exploitation of the Software or a derivative incorporating it.
 
-Where applicable, recipients must be provided access to the relevant licence terms and required source-code information.
+**1.6. Commercial Licensee:** An individual or organisation that has received written commercial authorization from the Copyright Holder.
 
-## 4. Commercial Reporting
+**1.7. Attributable Revenue:** Revenue demonstrably generated through an authorised commercial service, product, or activity incorporating Wind Tunnel Lab, as defined in the applicable commercial agreement.
 
-Commercial licensees must maintain accurate records of revenue attributable to their authorised exploitation of Wind Tunnel Lab.
+---
 
-Unless otherwise agreed in writing:
+## 2. COPYRIGHT OWNERSHIP
+
+2.1. The original Wind Tunnel Lab materials covered by this licence are the intellectual property of Chitrarup Guha, subject to applicable copyright law and any third-party rights.
+
+2.2. Publication of the Software, access to its source code, and permission to use, modify, or redistribute it do not transfer ownership of the original Software.
+
+2.3. All rights not expressly granted under this licence remain reserved to the Copyright Holder.
+
+2.4. Third-party libraries, frameworks, datasets, assets, and independently contributed materials remain subject to their respective owners and licence terms.
+
+2.5. Nothing in this licence transfers ownership of third-party materials or independently authored contributions to Chitrarup Guha.
+
+---
+
+## 3. EDUCATIONAL, ACADEMIC AND PERSONAL USE
+
+3.1. Permission is granted to individuals, students, educators, researchers, and curious learners to access, study, execute, and use Wind Tunnel Lab for educational, academic, personal, and non-commercial research purposes.
+
+3.2. Such permitted use is royalty-free.
+
+3.3. Users may study the source code, experiment with its functionality, and make personal modifications.
+
+3.4. No prior notification or commercial payment is required for ordinary individual educational, academic, personal, or non-commercial research use.
+
+3.5. This permission does not grant commercial exploitation rights.
+
+---
+
+## 4. MODIFICATION AND DERIVATIVE WORKS
+
+4.1. Users may modify, adapt, extend, and build upon the original Software for permitted purposes under this licence.
+
+4.2. Any redistributed Modified Version must:
+
+- Preserve the original copyright notice.
+- Include a copy of this licence.
+- Identify significant modifications where reasonably possible.
+- Distinguish original Wind Tunnel Lab materials from independently developed additions.
+- Identify the authorship of independent contributions where applicable.
+
+4.3. Modified versions must not falsely claim that the original Wind Tunnel Lab Software was independently created by the modifier.
+
+4.4. Modifications do not transfer ownership of the original Software to the modifier.
+
+4.5. The modifier retains rights in their independently created contributions, subject to the rights of the original Copyright Holder and other applicable rights holders.
+
+---
+
+## 5. ATTRIBUTION REQUIREMENTS
+
+5.1. Any permitted redistribution, public presentation, or incorporation of Wind Tunnel Lab into another work must preserve appropriate attribution.
+
+5.2. The following attribution must be retained in a reasonably visible location:
+
+"Based on Wind Tunnel Lab, originally developed by Chitrarup Guha."
+
+5.3. The official project repository must also be referenced:
+
+https://github.com/ChitrarupGuha/wind-tunnel-lab
+
+5.4. Where source code is redistributed, the original copyright notice and applicable licence must remain available.
+
+5.5. Where Wind Tunnel Lab is incorporated into another software application, project, or service, the attribution must be provided in an appropriate location, such as its documentation, credits, acknowledgements, or about section.
+
+5.6. Attribution must not falsely imply that Chitrarup Guha endorses, certifies, or officially supports the modified or incorporating product.
+
+5.7. The following statement may additionally be used where appropriate:
+
+"This code is inspired by and incorporates material from Wind Tunnel Lab, originally developed by Chitrarup Guha."
+
+---
+
+## 6. REDISTRIBUTION
+
+6.1. Redistribution of the original Software and Modified Versions is permitted for educational, academic, personal, and other non-commercial purposes, subject to this licence.
+
+6.2. Redistributors must provide recipients with:
+
+- The applicable copyright notice.
+- A complete copy of this licence.
+- Appropriate attribution.
+- Identification of significant modifications, where applicable.
+
+6.3. Redistribution does not grant the redistributor ownership of the original Software.
+
+6.4. Recipients must be informed of the licence conditions accompanying the distributed copy.
+
+6.5. Redistribution must not be presented as an official release by the Copyright Holder unless expressly authorised.
+
+6.6. Commercial redistribution, commercial resale, or distribution as part of a paid product is not authorised under the standard permissions of this licence. Separate written authorization is required for any exception.
+
+---
+
+## 7. INTERNAL ORGANISATIONAL USE
+
+7.1. Companies, educational institutions, research organisations, and other legal entities may use Wind Tunnel Lab internally for their own operational, educational, research, or evaluation purposes without royalty payments.
+
+7.2. Any organisation intending to deploy or implement Wind Tunnel Lab internally must notify the Copyright Holder before deployment or implementation.
+
+7.3. The notification must contain:
+
+- Legal name of the organisation.
+- Name and contact details of its responsible representative.
+- Intended purpose and scope of use.
+- Deployment environment.
+- Whether the original or a Modified Version will be used.
+- Expected implementation date.
+
+7.4. Internal organisational use does not automatically grant permission to resell, redistribute commercially, embed in paid products, or offer the Software as a revenue-generating service.
+
+7.5. Internal use must not be represented as an endorsement, partnership, or official affiliation with the Copyright Holder.
+
+---
+
+## 8. COMMERCIAL LICENSING AND ROYALTIES
+
+8.1. Commercial exploitation is not automatically authorised by public access to the source code.
+
+8.2. Commercial activities expressly requiring authorization under this licence may only commence after the Copyright Holder and the intended Commercial Licensee enter into a separate written commercial agreement.
+
+8.3. The following activities are not permitted under the standard licence without separate written authorization:
+
+- Commercial resale of the original Software or a Modified Version.
+- Embedding the Software into a paid product.
+- Selling access to a redistributed or incorporated copy as a standalone commercial product.
+- Other commercial distribution outside the expressly permitted commercial arrangements.
+
+8.4. The following activities may be authorised through a separate commercial agreement:
+
+**A. Paid online hosting and commercial services**
+
+A party may host or provide an online service incorporating Wind Tunnel Lab where prior written commercial authorization has been obtained.
+
+**B. Revenue-generating marketing and lead generation**
+
+A party may use Wind Tunnel Lab as part of an authorised business, marketing, customer-acquisition, or lead-generation service where the relevant commercial agreement covers that activity.
+
+8.5. Commercial compensation shall be negotiated individually.
+
+No universal royalty percentage, fixed payment, or minimum fee is established by this licence.
+
+8.6. A commercial agreement may specify:
+
+- Revenue-share percentage.
+- Fixed royalty or licensing fee.
+- Hybrid payment structure.
+- Definition of Attributable Revenue.
+- Permitted deductions.
+- Reporting requirements.
+- Payment schedule.
+- Verification and audit arrangements.
+- Duration and termination conditions.
+
+8.7. Revenue attribution must be demonstrable and must follow the calculation method agreed in writing.
+
+8.8. No party may assume that indirect business benefits, unrelated sales, or all company revenue automatically become royalty-bearing revenue without an applicable contractual agreement.
+
+8.9. Commercial licensees must preserve the applicable copyright and attribution notices and inform their users when Wind Tunnel Lab is incorporated into an authorised commercial service.
+
+8.10. No commercial permission shall be inferred merely from possession, download, modification, or public availability of the Software.
+
+---
+
+## 9. COMMERCIAL NOTIFICATION AND REPORTING
+
+9.1. Commercial licensees must maintain accurate records of revenue attributable to their authorised exploitation of Wind Tunnel Lab.
+
+9.2. Unless otherwise agreed in writing:
 
 - Reporting shall occur quarterly.
-- Reports shall be submitted within 30 days following the end of each calendar quarter.
-- Payment shall be made within the same 30-day period, in accordance with the applicable commercial agreement.
-- Reports must identify relevant revenue categories, deductions, calculations, and the resulting royalty amount.
-- Records supporting royalty calculations must be retained for at least three years.
+- Reports shall be submitted within 30 days after the end of each calendar quarter.
+- Payments shall be made within 30 days after the end of each calendar quarter.
+- Reports must explain relevant revenue categories, permitted deductions, calculations, and royalty amounts.
+- Supporting financial records must be retained for at least three years.
 
-Zero-revenue periods must also be reported where the commercial agreement requires periodic reporting.
+9.3. Zero-revenue periods must be reported where the applicable commercial agreement requires periodic reporting.
 
-## 5. Verification and Audit
+9.4. The Copyright Holder may request reasonable supporting documentation to verify reported revenue and royalty calculations.
 
-The copyright holder may request reasonable documentation to verify reported revenue and royalty calculations.
+9.5. Verification must be conducted with reasonable advance notice, during normal business hours, and subject to appropriate confidentiality obligations.
 
-Any audit must be conducted with reasonable advance notice, during normal business hours, and subject to appropriate confidentiality obligations.
+9.6. Audit costs and any additional verification procedures may be defined in the commercial agreement.
 
-The scope and cost allocation of any independent audit may be specified in the relevant commercial agreement.
+9.7. Currency, payment method, banking charges, and taxation shall be handled according to the applicable commercial agreement and relevant law.
 
-## 6. Payment and Taxation
+---
 
-Royalty rates, payment structures, currency, payment methods, applicable taxes, and other financial obligations shall be established in the relevant signed commercial agreement.
+## 10. WARRANTY DISCLAIMER
 
-No universal royalty percentage is established by this licence.
+10.1. Wind Tunnel Lab is provided on an "AS IS" and "AS AVAILABLE" basis, to the maximum extent permitted by applicable law.
 
-## 7. Non-Compliance
+10.2. The Copyright Holder makes no general express or implied warranty regarding:
 
-Failure to satisfy applicable notification, reporting, payment, or commercial authorization requirements may result in suspension or termination of the relevant commercial permission, subject to applicable law and the terms of the agreement.
+- Accuracy or correctness of simulation results.
+- Reliability or uninterrupted availability.
+- Fitness for a particular purpose.
+- Commercial suitability.
+- Compatibility with every operating environment.
+- Absence of errors, defects, or vulnerabilities.
+- Physical accuracy of aerodynamic calculations.
 
-[OFFICIAL LICENSING CONTACT EMAIL: chitrarupg@gmail.com]
+10.3. Users acknowledge that Wind Tunnel Lab is an experimental educational simulation and that its results have not necessarily been validated against experimental wind-tunnel measurements or established CFD benchmarks.
+
+10.4. Users are responsible for independently assessing the suitability of the Software for their intended use.
+
+10.5. This warranty disclaimer must be preserved in redistributed copies and Modified Versions.
+
+10.6. No modification, redistribution, or republication by a user shall be represented as a new warranty or guarantee issued by the original Copyright Holder.
+
+10.7. Nothing in this section excludes warranties or consumer rights that cannot lawfully be excluded under applicable law.
+
+---
+
+## 11. ENGINEERING AND SAFETY DISCLAIMER
+
+11.1. Wind Tunnel Lab is an educational and experimental software project.
+
+11.2. The Software is not represented as a validated professional CFD package, certified engineering tool, or replacement for physical wind-tunnel experiments.
+
+11.3. Simulated aerodynamic forces, coefficients, velocity fields, pressure distributions, and other calculated values are approximate unless independently validated.
+
+11.4. The Software must not be relied upon as the sole basis for:
+
+- Aircraft or spacecraft design.
+- Vehicle safety decisions.
+- Structural certification.
+- Industrial engineering approval.
+- Safety-critical engineering decisions.
+- Regulatory compliance or certification.
+
+11.5. Users must independently verify any results used in real-world engineering applications.
+
+11.6. The Copyright Holder does not claim that the Software has been tested, certified, approved, or endorsed by any university, laboratory, research institution, or wind-tunnel facility unless separately documented.
+
+---
+
+## 12. LIMITATION OF LIABILITY
+
+12.1. To the maximum extent permitted by applicable law, the Copyright Holder shall not be liable for indirect, incidental, special, exemplary, or consequential damages arising from the use of, inability to use, modification of, or distribution of the Software.
+
+12.2. Such damages may include, where legally excludable:
+
+- Loss of data.
+- Loss of profits.
+- Business interruption.
+- Incorrect engineering decisions.
+- Loss of business opportunities.
+- Software failures.
+- Loss arising from inaccurate simulation results.
+
+12.3. Users assume responsibility for evaluating the suitability of the Software and independently verifying results before relying upon them.
+
+12.4. Nothing in this licence excludes or limits liability where such exclusion or limitation is prohibited by applicable law.
+
+12.5. Nothing in this section shall be interpreted as excluding liability for fraud, wilful misconduct, or other matters that cannot lawfully be excluded.
+
+---
+
+## 13. THIRD-PARTY MATERIALS
+
+13.1. Wind Tunnel Lab may incorporate or interact with third-party libraries, frameworks, tools, datasets, or other materials.
+
+13.2. Such materials remain subject to their respective copyright owners and licence conditions.
+
+13.3. This licence does not override or replace third-party licences.
+
+13.4. Users must comply with applicable third-party licensing and attribution requirements.
+
+13.5. Independent contributions by other developers shall not automatically become the exclusive copyright property of Chitrarup Guha.
+
+---
+
+## 14. TERMINATION AND NON-COMPLIANCE
+
+14.1. Permissions granted under this licence may terminate upon a material breach of the applicable licence conditions, subject to applicable law.
+
+14.2. Material breaches may include:
+
+- Removing or falsifying required copyright notices.
+- Misrepresenting ownership of original Wind Tunnel Lab materials.
+- Conducting unauthorised commercial exploitation.
+- Failing to comply with applicable commercial payment obligations.
+- Materially failing to satisfy required reporting obligations.
+- Failing to provide required attribution.
+- Knowingly misrepresenting the Software as officially endorsed or certified by the Copyright Holder.
+
+14.3. Where a breach is capable of correction, the affected user should receive written notice and a reasonable opportunity to remedy it, ordinarily within 30 days.
+
+14.4. Unauthorised commercial exploitation or other serious breaches may justify immediate suspension or termination of the relevant commercial authorization, subject to the applicable agreement and law.
+
+14.5. Upon termination, the affected party must cease the activities for which permission has terminated and comply with any applicable obligations regarding copies, distribution, payments, and records.
+
+14.6. Termination does not eliminate accrued payment obligations, existing claims, or provisions intended to survive termination.
+
+14.7. Termination and remedies shall be applied subject to applicable law and any rights that cannot lawfully be restricted.
+
+---
+
+## 15. LICENCE VERSIONING AND FUTURE AMENDMENTS
+
+15.1. This document constitutes Wind Tunnel Lab Custom Source-Available Licence Version 1.0.
+
+15.2. The Copyright Holder may publish updated versions of this custom licence.
+
+15.3. A future version shall not automatically replace the licence version governing a previously granted permission.
+
+15.4. Existing recipients who received permission under a particular licence version may continue to rely upon that version, subject to its terms and applicable law.
+
+15.5. New users or recipients may be offered a newer licence version for future grants of permission.
+
+15.6. Where an existing user wishes to accept a newer licence version, that acceptance must be clear and identifiable.
+
+15.7. No amendment shall retrospectively remove rights already validly granted under an earlier version unless the affected parties lawfully agree otherwise.
+
+15.8. The Copyright Holder's publication of an updated licence does not automatically rewrite previously executed commercial agreements.
+
+---
+
+## 16. GOVERNING LAW AND JURISDICTION
+
+16.1. This licence shall be governed by and interpreted in accordance with the laws of India, including applicable intellectual-property and contract legislation.
+
+16.2. Any dispute arising from this licence should first be addressed through good-faith communication between the affected parties.
+
+16.3. Where a dispute cannot be resolved amicably, it may be referred to the competent courts having jurisdiction under applicable Indian law.
+
+16.4. Nothing in this clause shall exclude any jurisdiction or legal remedy that cannot lawfully be excluded.
+
+---
+
+## 17. SEVERABILITY
+
+17.1. If any provision of this licence is held invalid, unlawful, or unenforceable by a competent court, the remaining provisions shall continue to operate to the extent permitted by law.
+
+17.2. Any invalid provision shall be interpreted or limited only to the extent legally necessary, without automatically invalidating the entire licence.
+
+---
+
+## 18. ENTIRE LICENCE AND INTERPRETATION
+
+18.1. This document establishes the permissions and restrictions applicable to the original Wind Tunnel Lab materials covered by it.
+
+18.2. Separate written commercial agreements may establish additional or different commercial permissions and obligations for their respective parties.
+
+18.3. Where a commercial agreement expressly grants a specific exception to a restriction in this licence, that exception shall apply only within the scope of the agreement.
+
+18.4. No informal statement, public repository description, or implied permission shall override the written requirements for commercial authorization.
+
+18.5. Nothing in this licence transfers ownership of the original Wind Tunnel Lab Software.
+
+---
+
+## 19. ACCEPTANCE
+
+By exercising permissions granted under this licence, the user acknowledges that they have had an opportunity to review its terms and agrees to comply with the applicable conditions, to the extent such agreement is legally effective.
+
+Users who do not accept the applicable conditions must not exercise permissions that require acceptance under this licence.
+
+---
+
+# COPYRIGHT NOTICE
+
+**Wind Tunnel Lab**
+
+Original Author and Copyright Holder: Chitrarup Guha
+
+Copyright © 2026 Chitrarup Guha.
+
+Repository: https://github.com/ChitrarupGuha/wind-tunnel-lab
+
+Licence: Wind Tunnel Lab Custom Source-Available Licence, Version 1.0.
+
+All rights reserved except as expressly granted under this licence.
+
+**This is an independent project. It is not affiliated with or endorsed by any university, research institution, or commercial wind-tunnel facility.**
+
+[OFFICIAL LICENSING CONTACT EMAIL]
