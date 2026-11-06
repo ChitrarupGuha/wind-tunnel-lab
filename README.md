@@ -30,7 +30,7 @@ The project runs directly in a modern web browser without requiring a separate i
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/wind-tunnel-lab.git
+   git clone https://github.com/ChitrarupGuha/wind-tunnel-lab.git
    ```
 
 2. Open the project directory.
