@@ -1,0 +1,55 @@
+# NOTICE
+
+## Wind Tunnel Lab
+
+**Project:** Wind Tunnel Lab  
+**Copyright:** © 2026 Chitrarup Guha  
+**Repository:** https://github.com/ChitrarupGuha/wind-tunnel-lab
+
+Wind Tunnel Lab is an independently developed, browser-based educational aerodynamics simulation project.
+
+Unless a separate attribution or licence notice states otherwise, the original project code, interface, project documentation, and original visual elements are authored for Wind Tunnel Lab and are subject to the terms of the accompanying `LICENSE` file.
+
+## Ownership and Attribution
+
+The project is maintained and developed by **Chitrarup Guha**.
+
+When permitted redistribution includes copies or substantial portions of the original project, retain this notice, the applicable licence, and relevant copyright and attribution information.
+
+Suggested project attribution:
+
+> Wind Tunnel Lab  
+> Developed by Chitrarup Guha  
+> https://github.com/ChitrarupGuha/wind-tunnel-lab
+
+## Third-Party Components and Materials
+
+Third-party software libraries, frameworks, fonts, icons, datasets, documentation, or other materials, if included or used by the project, remain the property of their respective authors or rights holders.
+
+Such materials are governed by their own applicable copyright notices and licence terms. The project's `LICENSE` does not replace or override third-party licences.
+
+Any required third-party copyright notices, attribution statements, and licence texts should be retained when redistributing the relevant materials.
+
+**Before publishing a release:** Review the source code, external imports, assets, and bundled resources. Add the name, author, source, licence, and required attribution for each third-party component that is actually included. Do not list a dependency merely because it was considered or used during development.
+
+## Independent Development and Institutional Disclaimer
+
+Wind Tunnel Lab is an independent project. It is not an official project of, or affiliated with, any university, research institution, laboratory, company, or government organization unless explicitly authorized in writing.
+
+Mention of an institution, researcher, publication, or research facility does not imply endorsement, collaboration, technical review, or validation of the project.
+
+## Technical Status
+
+Wind Tunnel Lab currently uses a simplified two-dimensional incompressible stable-fluids solver for educational visualization.
+
+The project is not represented as a validated CFD package or an experimentally verified engineering tool. Its numerical outputs are approximate and subject to the limitations described in `DISCLAIMER.md` and `docs/limitations.md`.
+
+## Related Project Files
+
+- `LICENSE` — Governs permissions and conditions for using, modifying, and distributing the project.
+- `DISCLAIMER.md` — Describes intended use, technical limitations, and responsibility associated with simulation outputs.
+- `README.md` — Provides the project overview, features, and usage information.
+
+---
+
+**End of Notice**
