@@ -6,7 +6,7 @@
 
 Project Repository: https://github.com/ChitrarupGuha/wind-tunnel-lab
 
-Licensing Contact: [chitrarupg@gmail.com]
+Licensing Contact: [chitrarupg@gmail.com](mailto:chitrarupg@gmail.com)
 
 ---
 
