@@ -8,7 +8,7 @@
 
 Wind Tunnel Lab is an independently developed, browser-based educational aerodynamics simulation project.
 
-Unless a separate attribution or licence notice states otherwise, the original project code, interface, project documentation, and original visual elements are authored for Wind Tunnel Lab and are subject to the terms of the accompanying `LICENSE` file.
+Unless a separate attribution or licence notice states otherwise, the original project code, interface, project documentation, and original visual elements are authored for Wind Tunnel Lab and are subject to the terms of the accompanying `LICENSE.md` file.
 
 ## Ownership and Attribution
 
@@ -26,7 +26,7 @@ Suggested project attribution:
 
 Third-party software libraries, frameworks, fonts, icons, datasets, documentation, or other materials, if included or used by the project, remain the property of their respective authors or rights holders.
 
-Such materials are governed by their own applicable copyright notices and licence terms. The project's `LICENSE` does not replace or override third-party licences.
+Such materials are governed by their own applicable copyright notices and licence terms. The project's `LICENSE.md` does not replace or override third-party licences.
 
 Any required third-party copyright notices, attribution statements, and licence texts should be retained when redistributing the relevant materials.
 
@@ -46,7 +46,7 @@ The project is not represented as a validated CFD package or an experimentally v
 
 ## Related Project Files
 
-- `LICENSE` — Governs permissions and conditions for using, modifying, and distributing the project.
+- `LICENSE.md` — Governs permissions and conditions for using, modifying, and distributing the project.
 - `DISCLAIMER.md` — Describes intended use, technical limitations, and responsibility associated with simulation outputs.
 - `README.md` — Provides the project overview, features, and usage information.
 
