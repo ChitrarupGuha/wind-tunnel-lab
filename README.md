@@ -11,6 +11,7 @@ The project runs directly in a modern web browser without requiring a separate i
 - Interactive airflow visualization.
 - Pressure and velocity-field visualization.
 - Particle-based airflow trails.
+- Reynolds number and dynamic-pressure reference calculations.
 - Preset geometries: car, bike, plane, wing, Laval nozzle, and blank canvas.
 - Freehand geometry drawing and erasing.
 - Adjustable geometry angle and size.
@@ -61,7 +62,7 @@ It is intended for educational exploration and interactive visualization. It is 
 - [ ] Improve solver formulation and numerical stability.
 - [ ] Introduce configurable physical parameters.
 - [ ] Improve aerodynamic force and coefficient calculations.
-- [ ] Add Reynolds number and pressure coefficient visualization.
+- [ ] Add pressure-coefficient visualization.
 - [ ] Add experiment saving and A/B geometry comparison.
 - [ ] Introduce benchmark-based verification and validation.
 - [ ] Improve mobile and accessibility support.
